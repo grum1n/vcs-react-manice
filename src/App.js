@@ -1,8 +1,12 @@
 import React from 'react';
+import './styles/layout.css';
+import './styles/normalize.css';
 
 function App() {
     return (
-        <div>App</div>
+        <div className='myTest'>
+            test app
+        </div>
     );
 }
 
