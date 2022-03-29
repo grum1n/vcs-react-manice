@@ -1,0 +1,26 @@
+header {
+    background-color: red;
+}
+.header-navigation{
+    margin: 0 auto;
+    padding: 0;
+    max-width: 1158px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.header-logo-img{
+    width: 188px;
+    height: 40px;
+}
+
+.menu-button{
+    display: none;
+}
+
+@media screen and (max-width: 800px) {
+    .menu-button{
+        display: block;
+    }
+}

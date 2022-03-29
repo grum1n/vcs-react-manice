@@ -17,3 +17,14 @@ a {text-decoration: none;}
 ul, li {margin: 0;padding: 0;list-style-type: none;}
 h1, h2 ,h3 ,h4 ,h5 , p{margin: 0;}
 img {display: block;}
+
+.container {
+    max-width:1158px;
+    margin: 0 auto;
+    padding:0 20px;
+}
+.flex-container {display: flex;}
+.flex-col {display: flex;flex-direction: column;}
+.flex-between {display: flex;justify-content: space-between;}
+.flex-justify-center {display: flex;justify-content: center;}
+.flex-align-items-center {display: flex;align-items: center;}
