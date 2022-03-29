@@ -13,18 +13,18 @@ function Header() {
                     <img src={LogoImage} alt='Manice' className='header-logo-img'/>
                 </Link>
                 <div className='flex-container'>
-                    <ul className='flex-container'>
+                    <ul className='navigation-links'>
                         {Menu.map((item, index) => {
                             return (
-                                <li key={index}>
-                                    <Link to={item.path}>
+                                <li key={index} className='menu-links-box'>
+                                    <Link to={item.path} className={item.cName}>
                                         <span>{item.title}</span>
                                     </Link>
                                 </li>
                             );
                         })}
                     </ul>
-                    <button>
+                    <button className='menu-search-links'>
                         <FaIcons.FaSearch />
                     </button>
                     <button className='menu-button'>
