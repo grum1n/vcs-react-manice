@@ -1,9 +1,12 @@
 import React from 'react';
+import FrameContainer from '../../../../components/FrameContainer';
 import './newsSingle.css';
 
 function NewsSinglePage() {
     return (
-        <div>NewsSinglePage</div>
+        <FrameContainer>
+            <div>NewsSinglePage</div>
+        </FrameContainer>
     );
 }
 

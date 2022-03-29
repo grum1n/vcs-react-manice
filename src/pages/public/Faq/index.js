@@ -1,8 +1,12 @@
 import React from 'react';
+import FrameContainer from '../../../components/FrameContainer';
 
 function FaqPage() {
     return (
-        <div>FaqPage</div>
+        <FrameContainer>
+            <div>FaqPage</div>
+        </FrameContainer>
+        
     );
 }
 

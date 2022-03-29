@@ -1,9 +1,12 @@
 import React from 'react';
 import './contact.css';
+import FrameContainer from '../../../components/FrameContainer';
 
 function ContactPage() {
     return (
-        <div>ContactPage</div>
+        <FrameContainer>
+            <div>ContactPage</div>
+        </FrameContainer>
     );
 }
 

@@ -1,9 +1,12 @@
 import React from 'react';
 import './about.css';
+import FrameContainer from '../../../components/FrameContainer';
 
 function AboutPage() {
     return (
-        <div>AboutPage</div>
+        <FrameContainer>
+             <div>AboutPage</div>
+        </FrameContainer>
     );
 }
 

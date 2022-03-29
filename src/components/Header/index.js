@@ -54,21 +54,6 @@ function Header() {
                     })}
                 </ul>
             </nav>
-
-            {/* <nav className={menu ? 'mobile-menu active' : 'mobile-menu'}>
-                    <ul className='mobile-menu-item' onClick={showMobileMenu}>
-                        {Menu.map((item, index) => {
-                        return (
-                            <li key={index} className={item.cName}>
-                                <Link to={item.path} className='mobile-links-space'>
-                                    {item.icon}
-                                    <span>{item.title}</span>
-                                </Link>
-                            </li>
-                        );
-                        })}
-                    </ul>
-                </nav> */}
         </header>
     );
 }
