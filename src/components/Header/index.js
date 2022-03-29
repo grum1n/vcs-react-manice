@@ -44,7 +44,7 @@ function Header() {
                 <ul className='mobile-menu-item' onClick={showMobileMenu}>
                     {Menu.map((item, index) => {
                     return (
-                        <li key={index} className={item.cName}>
+                        <li key={index} className='mobile-menu-links-box'>
                             <Link to={item.path} onClick={closeMobileMenu} className='mobile-links-space'>
                                 {item.icon}
                                 <span>{item.title}</span>

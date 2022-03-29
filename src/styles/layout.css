@@ -5,7 +5,9 @@
 :root {
     --black:#000000;
     --gray: #c4c4c4;
-    --green: #3AB54A;;
+    --gray-transp: #00000042;
+    --green: #3AB54A;
+    --green-transp: #318b3dca;
     --white:#ffffff;
     --font-Lato: 'Lato', sans-serif;
     --font-OpenSans: 'Open Sans', sans-serif;
