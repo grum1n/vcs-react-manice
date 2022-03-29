@@ -11,31 +11,31 @@ export const Menu = [
   {
     title: 'About',
     path: '/about',
-    icon: <FaIcons.FaCarAlt />,
+    icon: <FaIcons.FaInfoCircle />,
     cName: 'menu-links'
   },
   {
     title: 'Services +',
     path: '/services',
-    icon: <FaIcons.FaUserLock />,
+    icon: <FaIcons.FaUsersCog />,
     cName: 'menu-links'
   },
   {
     title: 'News',
     path: '/news',
-    icon: <FaIcons.FaUserLock />,
+    icon: <FaIcons.FaNewspaper />,
     cName: 'menu-links'
   },
   {
     title: 'Pages +',
     path: '/pages',
-    icon: <FaIcons.FaUserLock />,
+    icon: <FaIcons.FaListAlt />,
     cName: 'menu-links'
   },
   {
     title: 'Contact',
     path: '/contact',
-    icon: <FaIcons.FaUserLock />,
+    icon: <FaIcons.FaAddressCard  />,
     cName: 'menu-links'
   }
 ];

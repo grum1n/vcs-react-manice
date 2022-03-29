@@ -1,5 +1,7 @@
 header {
     padding: 40px 0;
+    background-color: red;
+    z-index: 100;
 }
 .header-navigation{
     margin: 0 auto;
@@ -55,8 +57,28 @@ header {
 .menu-button{
     display: none;
 }
+.mobile-menu{
+    display: none;
+}
+.mobile-menu.active {
+    left: 0;
+    transition: 350ms;
+}
+.mobile-menu-item {
+    min-width: 200px;
+    padding-top: 70px;
+    text-align: center;
+}
+.mobile-links-space{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
 
 @media screen and (max-width: 850px) {
+    header {
+        padding: 20px 0;
+    }
     .navigation-links{
         display: none;
     }
@@ -75,5 +97,23 @@ header {
     }
     .menu-button:hover{
         color: var(--green);
+    }
+    .mobile-menu {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: 90vh;
+        position: absolute;
+        top: 80px;
+        left: -100%;
+        opacity: 1;
+        transition: all 0.5s ease;
+    }
+    .mobile-menu.active{
+        background-color: var(--green);
+        left: 0;
+        opacity: 1;
+        transition: all 0.5s ease;
+        z-index: 1;
     }
 }

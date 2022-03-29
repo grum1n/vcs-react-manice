@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Menu } from '../../data/Menu';
 import './header.css';
@@ -6,6 +6,14 @@ import * as FaIcons from 'react-icons/fa';
 import LogoImage from '../../images/logo.png';
 
 function Header() {
+    const [menu, setMenu] = useState(false);
+    const [searchButton, setSearchButton] = useState(false);
+
+    const showMobileMenu = () => setMenu(!menu);
+    const showSearchButton = () => setSearchButton(!searchButton);
+    const closeMobileMenu = () => setMenu(false);
+
+
     return (
         <header>
             <nav className='header-navigation'>
@@ -24,14 +32,43 @@ function Header() {
                             );
                         })}
                     </ul>
-                    <button className='menu-search-links'>
-                        <FaIcons.FaSearch />
+                    <button className='menu-search-links' onClick={showSearchButton}>
+                        {searchButton ? <FaIcons.FaSearchPlus style={{ color: 'var(--green)'}}/> : <FaIcons.FaSearch />}
                     </button>
-                    <button className='menu-button'>
-                        <FaIcons.FaBars />
+                    <button className='menu-button' onClick={showMobileMenu}>
+                        {menu ? <FaIcons.FaTimes style={{ color: 'var(--green)'}}/> : <FaIcons.FaBars />}
                     </button>
                 </div>
             </nav>
+            <nav className={menu ? 'mobile-menu active' : 'mobile-menu'}>
+                <ul className='mobile-menu-item' onClick={showMobileMenu}>
+                    {Menu.map((item, index) => {
+                    return (
+                        <li key={index} className={item.cName}>
+                            <Link to={item.path} onClick={closeMobileMenu} className='mobile-links-space'>
+                                {item.icon}
+                                <span>{item.title}</span>
+                            </Link>
+                        </li>
+                    );
+                    })}
+                </ul>
+            </nav>
+
+            {/* <nav className={menu ? 'mobile-menu active' : 'mobile-menu'}>
+                    <ul className='mobile-menu-item' onClick={showMobileMenu}>
+                        {Menu.map((item, index) => {
+                        return (
+                            <li key={index} className={item.cName}>
+                                <Link to={item.path} className='mobile-links-space'>
+                                    {item.icon}
+                                    <span>{item.title}</span>
+                                </Link>
+                            </li>
+                        );
+                        })}
+                    </ul>
+                </nav> */}
         </header>
     );
 }
