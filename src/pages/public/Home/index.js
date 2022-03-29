@@ -1,9 +1,12 @@
 import React from 'react';
+import FrameContainer from '../../../components/FrameContainer';
 import './home.css';
 
 function HomePage() {
     return (
-        <div>HomePage</div>
+        <FrameContainer>
+             <div>HomePage</div>
+        </FrameContainer>
     );
 }
 
