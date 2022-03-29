@@ -5,7 +5,7 @@ import FrameContainer from '../../../components/FrameContainer';
 function AboutPage() {
     return (
         <FrameContainer>
-             <div>AboutPage</div>
+             <div className='container'>AboutPage</div>
         </FrameContainer>
     );
 }

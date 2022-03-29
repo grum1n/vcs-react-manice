@@ -5,7 +5,7 @@ import './services.css';
 function ServicesPage() {
     return (
         <FrameContainer>
-            <div>ServicesPage</div>
+            <div className='container'>ServicesPage</div>
         </FrameContainer>
     );
 }

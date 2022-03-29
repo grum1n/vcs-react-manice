@@ -5,7 +5,7 @@ import './news.css';
 function NewsPage() {
     return (
         <FrameContainer>
-            <div>NewsPage</div>
+            <div className='container'>NewsPage</div>
         </FrameContainer>
     );
 }

@@ -5,7 +5,7 @@ import './newsSingle.css';
 function NewsSinglePage() {
     return (
         <FrameContainer>
-            <div>NewsSinglePage</div>
+            <div className='container'>NewsSinglePage</div>
         </FrameContainer>
     );
 }

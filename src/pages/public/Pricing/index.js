@@ -5,7 +5,7 @@ import './pricing.css';
 function PricingPage() {
     return (
         <FrameContainer>
-            <div>PricingPage</div>
+            <div className='container'>PricingPage</div>
         </FrameContainer>
         
     );

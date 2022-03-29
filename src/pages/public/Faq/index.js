@@ -4,7 +4,7 @@ import FrameContainer from '../../../components/FrameContainer';
 function FaqPage() {
     return (
         <FrameContainer>
-            <div>FaqPage</div>
+            <div className='container'>FaqPage</div>
         </FrameContainer>
         
     );

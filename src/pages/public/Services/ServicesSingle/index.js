@@ -5,7 +5,7 @@ import './servicesSingle.css';
 function ServicesSinglePage() {
     return (
         <FrameContainer>
-            <div>ServicesSinglePage</div>
+            <div className='container'>ServicesSinglePage</div>
         </FrameContainer>
     );
 }

@@ -5,7 +5,7 @@ import './page404.css';
 function Page404() {
     return (
         <FrameContainer>
-            <div>Page404</div>
+            <div className='container'>Page404</div>
         </FrameContainer>
     );
 }

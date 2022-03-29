@@ -5,7 +5,7 @@ import './home.css';
 function HomePage() {
     return (
         <FrameContainer>
-             <div>HomePage</div>
+             <div className='container'>HomePage</div>
         </FrameContainer>
     );
 }

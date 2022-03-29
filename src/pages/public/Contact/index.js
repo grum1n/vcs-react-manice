@@ -5,7 +5,7 @@ import FrameContainer from '../../../components/FrameContainer';
 function ContactPage() {
     return (
         <FrameContainer>
-            <div>ContactPage</div>
+            <div className='container'>ContactPage</div>
         </FrameContainer>
     );
 }
