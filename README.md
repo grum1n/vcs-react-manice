@@ -21,7 +21,7 @@ VILNIUS CODING SCHOOL - kurso kartojimo darbas
     managment
     chat
     chart cake
-    screen
+    desctop
     facebook
     twitter
     instagram

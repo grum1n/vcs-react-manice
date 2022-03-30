@@ -1,13 +1,13 @@
 import React from 'react';
 import FrameContainer from '../../../components/FrameContainer';
 import HeroSmall from '../../../components/HeroSmall';
-import './services.css';
+import ServicesTable from './ServicesTable';
 
 function ServicesPage() {
     return (
         <FrameContainer>
             <HeroSmall title='Services' />
-            <div className='container'>ServicesPage</div>
+            <ServicesTable />
         </FrameContainer>
     );
 }
