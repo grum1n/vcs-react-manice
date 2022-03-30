@@ -30,3 +30,4 @@ img {display: block;}
 .flex-between {display: flex;justify-content: space-between;}
 .flex-justify-center {display: flex;justify-content: center;}
 .flex-align-items-center {display: flex;align-items: center;}
+.flex-wrap{display:flex; flex-wrap: wrap;}
