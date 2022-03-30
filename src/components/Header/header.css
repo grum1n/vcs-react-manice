@@ -1,5 +1,7 @@
 header {
     padding: 40px 0;
+    width: 100%;
+    position: fixed;
     z-index: 100;
 }
 .header-navigation{
