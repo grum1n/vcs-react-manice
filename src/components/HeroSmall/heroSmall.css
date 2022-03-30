@@ -1,9 +1,18 @@
-.heroSmall{
-    padding-top: 100px;
-    padding-bottom: 50px;
+.herosmall-title{
+    padding-top: 240px;
+    padding-bottom: 192px;
     color: var(--green);
-    font-size: 2rem;
-    font-weight: 400;
+    font-family: var(--font-Lato);
+    font-size: 5rem;
+    line-height: 5rem;
+    font-weight: 900;
     text-align: center;
-    background-color: var(--white);
+    background-color: var(--white);  
+}
+.herosmall-title:after {
+    content:"";
+    display: block;
+    width: 100px;
+    border-top: 4px solid var(--black);
+    margin: 22px auto 32px;
 }

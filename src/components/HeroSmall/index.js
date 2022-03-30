@@ -2,7 +2,11 @@ import React from 'react';
 import './heroSmall.css';
 
 function HeroSmall({ title }) {
-    return <h2 className='herosmall'>{title}</h2>;
+    return (
+        <div className='container'>
+            <h2 className='herosmall-title'>{title}</h2>
+        </div> 
+    );
 }
 
 export default HeroSmall;
