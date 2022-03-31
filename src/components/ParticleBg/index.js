@@ -32,7 +32,7 @@ function ParticleBackground() {
         <div className='particle'>
                 <ParticlesBg 
                 type='cobweb'
-                num={15}
+                num={55}
                 color='#ffffff'
             /> 
         </div>

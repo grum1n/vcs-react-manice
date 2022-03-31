@@ -1,6 +1,6 @@
 import React from 'react';
 import FrameContainer from '../../../components/FrameContainer';
-import HeroSmall from '../../../components/HeroSmall';
+import Hero from '../../../components/Hero';
 import Partners from '../../../components/Partners';
 import { NewsData } from '../../../data/NewsData';
 import NewsCard from '../News/NewsCard';
@@ -10,7 +10,7 @@ import './home.css';
 function HomePage() {
     return (
         <FrameContainer>
-            <HeroSmall title='Home' />
+            <Hero />
             <div className='container'>
                 <h3 className='home-title-h3'><span className='home-title-span'>Our</span> Services</h3>
             </div>
