@@ -1,0 +1,12 @@
+.faq-box{
+    text-align: left;
+    padding-bottom: 50px;
+}
+.faq-box h3 {
+    color: var(--black);
+    font-family: var(--font-Lato);
+    font-size: 2.25rem;
+    line-height: 2.6875rem;
+    font-weight: 900;
+    padding-bottom: 36px;
+}
