@@ -11,13 +11,15 @@ function HomePage() {
     return (
         <FrameContainer>
             <HeroSmall title='Home' />
-            <div className='container home-component-container'>
-            <h3 className='home-component-container-h3'><span className='home-component-container-span'>Our</span> Services</h3>
-                <ServicesTable />
+            <div className='container'>
+                <h3 className='home-title-h3'><span className='home-title-span'>Our</span> Services</h3>
             </div>
+            <ServicesTable />
             <Partners />
+            <div className='container'>
+                <h3 className='home-title-h3'><span className='home-title-span'>Recent</span> Recent</h3>
+            </div>
             <div className='container home-component-container'>
-                <h3 className='home-component-container-h3'><span className='home-component-container-span'>Recent</span> News</h3>
                 <div className='newsPage-flex-container'>
                     {
                         NewsData.map((newsCard, index) => {

@@ -1,17 +1,21 @@
 .home-component-container {
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
     align-items: center;
 }
-.home-component-container-h3{
+.home-title-span{
+    padding-right: 12px;
+    color: var(--green);
+}
+
+.home-title-h3{
+    width: 100%;
     display: flex;
+    justify-content: center;
     font-family: var(--font-Lato);
     font-size: 2.25rem;
     line-height: 3.4375rem;
     margin-top: 72px;
     margin-bottom: 72px;
-}
-.home-component-container-span{
-    padding-right: 12px;
-    color: var(--green);
 }
