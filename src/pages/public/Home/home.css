@@ -1,0 +1,17 @@
+.home-component-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.home-component-container-h3{
+    display: flex;
+    font-family: var(--font-Lato);
+    font-size: 2.25rem;
+    line-height: 3.4375rem;
+    margin-top: 72px;
+    margin-bottom: 72px;
+}
+.home-component-container-span{
+    padding-right: 12px;
+    color: var(--green);
+}

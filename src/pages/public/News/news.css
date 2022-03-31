@@ -1,0 +1,13 @@
+.newsPage-flex-container{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 25px;
+    padding-bottom: 195px;
+}
+
+@media screen and (max-width: 1150px) {
+    .newsPage-flex-container{
+        justify-content: center;
+    }
+}
