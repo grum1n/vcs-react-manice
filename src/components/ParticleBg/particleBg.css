@@ -1,0 +1,16 @@
+.particle{
+    height: 600px;
+}
+
+@media screen and (max-width: 1191px){
+    .particle{
+        height: 900px;
+    }
+}
+
+@media screen and (max-width: 830px){
+    .particle{
+        height: 1120px;
+    }
+}
+
