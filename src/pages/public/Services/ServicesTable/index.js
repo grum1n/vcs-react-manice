@@ -22,7 +22,7 @@ function ServicesTable() {
             </li>
             <li className='services-box'>
                 <div>
-                    <FaIcons.FaShoppingBag className='services-box-icon' />
+                    <FaIcons.FaBriefcase className='services-box-icon' />
                 </div>
                 <div className='flex-col'>
                     <h4 className='services-box-h4'>Business Solutions</h4>
@@ -50,7 +50,7 @@ function ServicesTable() {
             </li>
             <li className='services-box'>
                 <div>
-                    <FaIcons.FaRocketchat className='services-box-icon' />
+                    <FaIcons.FaComments className='services-box-icon' />
                 </div>
                 <div className='flex-col'>
                     <h4 className='services-box-h4'>Online Consulting</h4>

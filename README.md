@@ -17,11 +17,11 @@ VILNIUS CODING SCHOOL - kurso kartojimo darbas
     check
     check circle
     chart
-    bag
+    Briefcase
     managment
-    chat
+    Comments
     chart cake
-    desctop
+    desktop
     facebook
     twitter
     instagram

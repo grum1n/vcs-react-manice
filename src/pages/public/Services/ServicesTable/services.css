@@ -3,8 +3,10 @@
     justify-content: space-between;
     flex-wrap: wrap;
     gap: 30px;
+    padding-bottom: 195px;
 }
 .services-box {
+    padding-top: 50px;
     display: flex;
     max-width: 353px;
     gap: 20px;
