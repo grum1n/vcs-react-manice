@@ -12,7 +12,7 @@ function NewsPage() {
     const [pageNumber, setPageNumber] = useState(0);
 
     const newsPerPage = 6;
-    const pagesVisited = pageNumber * newsPerPage; //
+    const pagesVisited = pageNumber * newsPerPage; 
 
     const displayNews = news
         .slice(pagesVisited, pagesVisited + newsPerPage)
@@ -40,19 +40,6 @@ function NewsPage() {
             <HeroSmall title='News' />
             <div className='container newsPage-flex-container'>
                 {displayNews}
-                {/* {
-                    NewsData.map((newsCard, index) => {
-                        return(
-                            <NewsCard 
-                                title={newsCard.title} 
-                                date={newsCard.date}
-                                category={newsCard.category}
-                                contentText={newsCard.contentText}
-                                key={index}
-                            />
-                        );
-                    })
-                } */}
                 <ReactPaginate 
                     previousLabel={'Previous'}
                     nextLabel={'Next'}
