@@ -6,12 +6,58 @@ import { NewsData } from '../../../data/NewsData';
 import NewsCard from '../News/NewsCard';
 import ServicesTable from '../Services/ServicesTable';
 import './home.css';
+import * as FaIcons from 'react-icons/fa';
+import { Link } from 'react-router-dom';
 
 function HomePage() {
     return (
         <FrameContainer>
             <Hero />
             <div className='container'>
+                <div className='home-stats-top'>
+                    <h3 className='home-stats-top-h3'>Experienced in mortgage and financial advice!</h3>
+                    <p className='home-stats-top-p'>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis.</p>
+                </div>
+                <ul className='home-stats-bottom'>
+                    <li>
+                        <h2>734</h2>
+                        <span>Satisfied Customers</span>
+                    </li>
+                    <li>
+                        <h2>542</h2>
+                        <span>Consulteds</span>
+                    </li>
+                    <li>
+                        <h2>17</h2>
+                        <span>Years Experience</span>
+                    </li>
+                    <li>
+                        <h2>324</h2>
+                        <span>Finance Help</span>
+                    </li>
+                </ul>
+            </div>
+            <div className='home-company-value'>
+                <div className='container home-company-value-container'>
+                    <ul>
+                        <li><h3 className='home-title-h3'><span className='home-title-span'>Company</span> Value</h3></li>
+                        <li>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis.</li>
+                        <li> <span><FaIcons.FaCheck /></span>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</li>
+                        <li> <span><FaIcons.FaCheck /></span>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
+                        <li> <span><FaIcons.FaCheck /></span>Consectetur adipisicing elit sed do eiusmod temporin cididunt ut labore et dolore.</li>
+                        <li>
+                            <Link to='/' className='home-company-value-button'>Learn More</Link>
+                        </li>
+                    </ul>
+                    <div className='home-company-value-img'>
+                        img
+                    </div>
+                    <div className='home-company-value-green'>
+                        img
+                    </div>
+                </div>
+            </div>
+            <div className='container first-section-padding'>
                 <h3 className='home-title-h3'><span className='home-title-span'>Our</span> Services</h3>
             </div>
             <ServicesTable />
