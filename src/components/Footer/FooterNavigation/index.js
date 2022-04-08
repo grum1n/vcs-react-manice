@@ -60,6 +60,16 @@ function Footernavigation() {
                             </li>
                         );
                     })}
+                    <li className='flex-align-items-center  contact-links-padding'>
+                        <Link to='/pricing' className='footer-navigation-links'>
+                            <FaIcons.FaChevronRight className='footer-navigation-chevron' /><span>Pricing +</span>
+                        </Link>
+                    </li>
+                    <li className='flex-align-items-center  contact-links-padding'>
+                        <Link to='/faq' className='footer-navigation-links'>
+                            <FaIcons.FaChevronRight className='footer-navigation-chevron' /><span>FAQ</span>
+                        </Link>
+                    </li>
                 </ul>
             </div>
             <div className='footer-navigation-box'>
