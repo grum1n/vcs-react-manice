@@ -6,6 +6,10 @@ header {
     z-index: 100;
     background-color: var(--white);
 }
+.header.active{
+    background-color: var(--white);
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+}
 .header-navigation{
     margin: 0 auto;
     padding: 0 15px;

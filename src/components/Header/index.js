@@ -8,14 +8,23 @@ import LogoImage from '../../images/logo.png';
 function Header() {
     const [menu, setMenu] = useState(false);
     const [searchButton, setSearchButton] = useState(false);
+    const [header, setHeader] = useState();
 
     const showMobileMenu = () => setMenu(!menu);
     const showSearchButton = () => setSearchButton(!searchButton);
     const closeMobileMenu = () => setMenu(false);
 
+    const changeHeaderBg = () => {
+        if (window.scrollY >= 80) {
+          setHeader(true);
+        } else {
+          setHeader(false);
+        }
+    };
+    window.addEventListener('scroll', changeHeaderBg);
 
     return (
-        <header>
+        <header className={header ? 'header active' : 'header'}>
             <nav className='header-navigation'>
                 <Link to='/'>
                     <img src={LogoImage} alt='Manice' className='header-logo-img'/>

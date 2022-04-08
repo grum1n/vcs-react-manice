@@ -8,6 +8,9 @@ import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
 import FotoUrl from '../../../images/pexels-essow-936722.jpg';
 import personalFotoUrl1 from '../../../images/pexels-andrea-piacquadio-3760263-xx.jpg';
+import personalFotoUrl2 from '../../../images/pexels-emmy-e-2381069-xx.jpg';
+import personalFotoUrl3 from '../../../images/pexels-andrea-piacquadio-3756679-xx.jpg';
+
 
 function AboutPage() {
     return (
@@ -80,16 +83,16 @@ function AboutPage() {
                     </li>
                     <li>
                         <div className='about-page-our-team-img-box'>
-                            <img src={personalFotoUrl1} alt='foto'/>
+                            <img src={personalFotoUrl2} alt='foto'/>
                         </div>
                         <h3>
-                            Dedi Doe
+                            Sendi Doe
                         </h3>
                         <p>Chief Finance Officer</p>
                     </li>
                     <li>
                         <div className='about-page-our-team-img-box'>
-                            <img src={personalFotoUrl1} alt='foto'/>
+                            <img src={personalFotoUrl3} alt='foto'/>
                         </div>
                         <h3>
                             John Doe
