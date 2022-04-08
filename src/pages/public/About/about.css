@@ -11,6 +11,11 @@
     background-color: var(--gray-6);
     position: relative;
 }
+.about-page-container-left-box img {
+    width: 100%;
+    height: 414px;
+    display: block;
+}
 .about-page-container-left-box h3{
     width: 430px;
     padding: 29px 30px 32px 41px;
@@ -170,6 +175,14 @@
     padding-bottom: 137px;
     padding-left: 100px;
 } */
+
+
+
+/* foto about-page-our-team-img-box*/
+.about-page-our-team-img-box img{
+    width: 100%;
+    height: 100%;
+}
 
 @media screen and (max-width: 750px) {
     .about-page-container-left-box h3{

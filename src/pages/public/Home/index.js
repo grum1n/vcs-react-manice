@@ -8,6 +8,7 @@ import ServicesTable from '../Services/ServicesTable';
 import './home.css';
 import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import companyValueFotoUrl from '../../../images/pexels-fauxels-3184613.jpg';
 
 function HomePage() {
     return (
@@ -50,7 +51,7 @@ function HomePage() {
                         </li>
                     </ul>
                     <div className='home-company-value-img'>
-                        img
+                        <img src={companyValueFotoUrl} alt='foto' />
                     </div>
                     <div className='home-company-value-green'>
                         img
@@ -75,7 +76,7 @@ function HomePage() {
             </div>
             <Partners />
             <div className='container'>
-                <h3 className='home-title-h3'><span className='home-title-span'>Recent</span> Recent</h3>
+                <h3 className='home-title-h3'><span className='home-title-span'>Recent</span> News</h3>
             </div>
             <div className='container home-component-container'>
                 <div className='newsPage-flex-container'>

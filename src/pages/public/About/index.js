@@ -6,6 +6,8 @@ import Partners from '../../../components/Partners';
 import ServicesTable from '../Services/ServicesTable';
 import * as FaIcons from 'react-icons/fa';
 import { Link } from 'react-router-dom';
+import FotoUrl from '../../../images/pexels-essow-936722.jpg';
+import personalFotoUrl1 from '../../../images/pexels-andrea-piacquadio-3760263-xx.jpg';
 
 function AboutPage() {
     return (
@@ -13,6 +15,7 @@ function AboutPage() {
             <HeroSmall title='About' />
             <div className='container about-page-container'>
                 <div className='about-page-container-left-box'>
+                    <img src={FotoUrl} alt='foto'/>
                     <h3>
                         Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia.
                     </h3>
@@ -62,31 +65,13 @@ function AboutPage() {
                     </ul>
                     
                 </div>
-                {/* <ul className='about-page-company-value-left-box'>
-                    <li><h3 className='home-title-h3'><span className='home-title-span'>Company</span> Value</h3></li>
-                    <li>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis.</li>
-                    <li> <span><FaIcons.FaCheck /></span>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</li>
-                    <li> <span><FaIcons.FaCheck /></span>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
-                    <li> <span><FaIcons.FaCheck /></span>Consectetur adipisicing elit sed do eiusmod temporin cididunt ut labore et dolore.</li>
-                    <li>
-                        <Link to='/' className='home-company-value-button'>Learn More</Link>
-                    </li>
-                </ul>
-                <ul className='about-page-company-value-right-box'>
-                    <li><h3 className='home-title-h3'><span className='home-title-span'>Company</span> Value</h3></li>
-                    <li>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis.</li>
-                    <li> <span><FaIcons.FaCheck /></span>Excepteur sint occaecat cupidatat non proident sunt in culpa qui officia deserunt mollit anim.</li>
-                    <li> <span><FaIcons.FaCheck /></span>Duis aute irure dolor in reprehenderit in voluptate velit esse.</li>
-                    <li> <span><FaIcons.FaCheck /></span>Consectetur adipisicing elit sed do eiusmod temporin cididunt ut labore et dolore.</li>
-                    
-                </ul> */}
             </div>
             <div className='container'>
                 <h2 className='about-page-our-team-h2'>Our <span>Team</span></h2>
                 <ul className='about-page-our-team'>
                     <li>
                         <div className='about-page-our-team-img-box'>
-                            img
+                            <img src={personalFotoUrl1} alt='foto'/>
                         </div>
                         <h3>
                             John Doe
@@ -95,7 +80,7 @@ function AboutPage() {
                     </li>
                     <li>
                         <div className='about-page-our-team-img-box'>
-                            img
+                            <img src={personalFotoUrl1} alt='foto'/>
                         </div>
                         <h3>
                             Dedi Doe
@@ -104,7 +89,7 @@ function AboutPage() {
                     </li>
                     <li>
                         <div className='about-page-our-team-img-box'>
-                            img
+                            <img src={personalFotoUrl1} alt='foto'/>
                         </div>
                         <h3>
                             John Doe
