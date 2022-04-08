@@ -19,6 +19,7 @@ function NewsPage() {
         .map((newsCard, index) => {
         return(
             <NewsCard 
+                url={newsCard.url}
                 title={newsCard.title} 
                 date={newsCard.date}
                 category={newsCard.category}

@@ -4,7 +4,7 @@ export const ROUTES = {
     PUBLIC_CONTACT: '/contact',
     PUBLIC_FAQ: '/faq',
     PUBLIC_NEWS: '/news',
-    PUBLIC_NEWS_SINGLE: '/news/single/:id',
+    PUBLIC_NEWS_SINGLE: '/news/single',
     PUBLIC_PAGE_404: '*',
     PUBLIC_PRICING: '/pricing',
     PUBLIC_SERVICES: '/services',

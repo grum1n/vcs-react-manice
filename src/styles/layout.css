@@ -22,6 +22,16 @@ ul, li {margin: 0;padding: 0;list-style-type: none;}
 h1, h2 ,h3 ,h4 ,h5 , p{margin: 0;}
 img {display: block;}
 
+.col-1 { grid-area: col-1;}
+.col-2 { grid-area: col-2;}
+.col-3 {grid-area: col-3;}
+.col-4 {grid-area: col-4;}
+.col-5 {grid-area: col-5;}
+.col-6 {grid-area: col-6;}
+.col-7 {grid-area: col-7;}
+.col-8 {grid-area: col-8;}
+.col-9 {grid-area: col-9;}
+
 .container {
     max-width:1158px;
     margin: 0 auto;

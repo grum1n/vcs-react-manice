@@ -1,0 +1,192 @@
+.about-page-container{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.about-page-container-left-box{
+    width: 560px;
+    height: 414px;
+    background-color: var(--gray-6);
+    position: relative;
+}
+.about-page-container-left-box h3{
+    width: 430px;
+    padding: 29px 30px 32px 41px;
+    background-color: var(--green);
+    color: var(--white);
+    position: absolute;
+    bottom: 58px;
+    right: -20px;
+    font-family: var(--font-Roboto);
+    font-size: 1.3125rem;
+    font-weight: 400;
+    line-height: 1.5rem;
+    text-align: left;
+}
+.about-page-container-right-box{
+    padding: 0 100px;
+    width: 560px;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+    font-family: var(--font-Lato);
+}
+.about-page-container-right-box li:first-child{
+    color: var(--green);
+    font-size: 2.25rem;
+    font-weight: 900;
+    line-height: 3.4375rem;
+    text-align: left;
+    padding-bottom: 42px;
+}
+.about-page-container-right-box li:first-child span{
+    color: var(--black);
+}
+.about-page-container-right-box li:nth-child(2){
+    color: var(--gray-6);
+    font-family: var(--font-Roboto);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.15rem;
+    text-align: left;
+    padding-bottom: 14px;
+}
+.about-page-container-right-box li:nth-child(3){
+    color: var(--gray-6);
+    font-family: var(--font-Roboto);
+    font-size: 1.1rem;
+    font-weight: 400;
+    line-height: 1.2rem;
+    text-align: left;
+    padding-bottom: 41px;
+}
+.about-page-container-right-box li:nth-child(4){
+    color: var(--black);
+    font-size: 1.3125rem;
+    font-weight: 900;
+    line-height: 1.5625rem;
+    text-align: left;
+    padding-bottom: 13px;
+}
+.about-page-container-right-box li:last-child{
+    color: var(--gray-6);
+    font-family: var(--font-Roboto);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+    text-align: left;
+    padding-bottom: 13px;
+}
+
+/*about-page-our-team*/
+.about-page-our-team{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    /* gap:25px; */
+    padding-bottom: 150px;
+}
+.about-page-our-team-h2{
+    color: var(--green);
+    font-family: var(--font-Lato);
+    font-size: 2.25rem;
+    font-weight: 900;
+    line-height: 3.4375rem;
+    text-align: left;
+    padding-bottom: 42px;
+}
+.about-page-our-team-h2 span{
+    color: var(--black);
+}
+.about-page-our-team li{
+    border-bottom: 2px solid var(--green);
+}
+.about-page-our-team-img-box{
+    width: 365px;
+    height:365px;
+    background-color: var(--gray-6);
+}
+.about-page-our-team h3{
+    text-align: left;
+    color: var(--black);
+    font-family: var(--font-Lato);
+    font-size: 1.3125rem;
+    font-weight: 900;
+    line-height: 1.5625rem;
+    padding-top: 30px;
+    padding-bottom: 13px;
+}
+.about-page-our-team p{
+    text-align: left;
+    color: var(--gray-6);
+    font-family: var(--font-Roboto);
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.1rem;
+    padding-bottom: 35px;
+}
+/*about-page-company-value*/
+.about-page-company-value{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 101px;
+
+}
+.about-page-company-value-left-box{
+    background-color: var(--green-f7);
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+}
+.about-page-company-value-left-box ul{
+    margin: 100px;
+    max-width: 460px;
+}
+.about-page-company-value-right-box {
+    background-color: var(--gray-6);
+    width: 100%;
+    display: flex;
+    justify-content: flex-start;
+}
+.about-page-company-value-right-box ul{
+    margin: 100px;
+    max-width: 460px;
+}
+/* .about-page-company-value-left-box{
+    background-color: var(--green-f7);
+    padding-top: 100px;
+    padding-bottom: 137px;
+    padding-right: 100px;
+
+}
+.about-page-company-value-right-box{
+    background-color: var(--gray-6);
+    padding-top: 100px;
+    padding-bottom: 137px;
+    padding-left: 100px;
+} */
+
+@media screen and (max-width: 750px) {
+    .about-page-container-left-box h3{
+        right: 0;
+    }
+    .about-page-our-team-h2{
+        text-align: center;
+    }
+    .about-page-our-team{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+        /* gap:25px; */
+        padding-bottom: 150px;
+    }
+    .about-page-company-value{
+        flex-direction: column;
+    }
+}

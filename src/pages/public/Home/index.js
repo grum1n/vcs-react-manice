@@ -61,6 +61,18 @@ function HomePage() {
                 <h3 className='home-title-h3'><span className='home-title-span'>Our</span> Services</h3>
             </div>
             <ServicesTable />
+            <div className='home-green-line-feedback'>
+                <div className='home-green-line-div'>
+                    <h3>All of our customers trust their success to us</h3>
+                    <p>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis.</p>
+                    <div>
+                        <i>Teritatis et quasi architecto. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium dolore mque laudantium, totam rem aperiam eaque ipsa quae ab illo invent. Sed ut perspiciatis unde omnis.</i>
+                        <h4>Rudhi Sasmito</h4>
+                        <span>— Head Of Operations</span>
+                    </div>
+                </div>
+
+            </div>
             <Partners />
             <div className='container'>
                 <h3 className='home-title-h3'><span className='home-title-span'>Recent</span> Recent</h3>
@@ -71,6 +83,7 @@ function HomePage() {
                         NewsData.map((newsCard, index) => {
                             return(
                                 <NewsCard 
+                                    url={newsCard.url}
                                     title={newsCard.title} 
                                     date={newsCard.date}
                                     category={newsCard.category}
